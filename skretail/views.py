@@ -16,8 +16,7 @@ from rest_framework.response import Response
 
 from django.http import HttpResponse
 from django.shortcuts import HttpResponseRedirect
-
-
+import requests
 
 def index(request):
     if request.user.is_authenticated:

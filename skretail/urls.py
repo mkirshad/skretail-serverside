@@ -16,10 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from django.shortcuts import redirect
+from .views import login
 
 urlpatterns = [
     path('', lambda request: redirect('retail/', permanent=False), name='home'),
     path('retail/', include('retail.urls')),
     path('admin/', admin.site.urls),
-    path('auth/', include('django.contrib.auth.urls'))
+    path('auth/', include('django.contrib.auth.urls')),
+    path('api/login', login),
 ]
