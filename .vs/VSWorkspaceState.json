@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\retail",
-    "\\retail\\templates",
     "\\skretail",
     "\\templates",
     "\\templates\\registration"
   ],
-  "SelectedNode": "\\retail\\urls.py",
+  "SelectedNode": "\\skretail\\views.py",
   "PreviewInSolutionExplorer": false
 }
